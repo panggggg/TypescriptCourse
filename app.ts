@@ -47,6 +47,11 @@ function addPharse(number1: number, number2: number, showResult: boolean, pharse
     }
 }
 
+//let number1: number;
+//number1 = 5
+//let msg = "Hello"
+//msg = 10 => error
+
 const n1 = 5
 const n2 = 2.8
 const printResult = true
