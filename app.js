@@ -29,3 +29,17 @@ function add(number1, number2) {
     return number1 + number2;
 }
 console.log(add(5, 2.8));
+function addPharse(number1, number2, showResult, pharse) {
+    var result = number1 + number2;
+    if (showResult) {
+        console.log(pharse + result);
+    }
+    else {
+        return result;
+    }
+}
+var n1 = 5;
+var n2 = 2.8;
+var printResult = true;
+var resultPhrase = 'Result is: ';
+addPharse(n1, n2, printResult, resultPhrase);
