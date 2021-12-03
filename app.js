@@ -38,6 +38,10 @@ function addPharse(number1, number2, showResult, pharse) {
         return result;
     }
 }
+//let number1: number;
+//number1 = 5
+//let msg = "Hello"
+//msg = 10 => error
 var n1 = 5;
 var n2 = 2.8;
 var printResult = true;
