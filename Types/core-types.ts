@@ -29,3 +29,7 @@ enum Price {
     strawberrry = 100
 }
 console.log(Price.banana)
+
+//8. any (*) any kind of value, no specific type assignment
+let ageAny: any[]
+ageAny = [21, "21"]
