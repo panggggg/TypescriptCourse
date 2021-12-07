@@ -20,4 +20,12 @@ const arr: number[] = [1, 2, 3]
 const colour: string[] = ['red', 'black']
 const any: any[] = ['hello', 10]
 
-//6. tuple (fixed length array)
+//6. tuple (fixed length and type array)
+const tuple: [string, number] = ['abc', 3]
+
+//7. enum (human readable) => enum {NEW, OLD}
+enum Price {
+    banana = 10,
+    strawberrry = 100
+}
+console.log(Price.banana)
