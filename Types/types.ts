@@ -44,3 +44,6 @@ const b: string | number = 'pang'
 function pets( kindOfPet: 'dog' | 'cat'){
 
 }
+
+//11. aliases
+type input = string | number
