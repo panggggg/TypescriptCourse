@@ -8,6 +8,13 @@ userInput = 5
 userInput = "pang"
 userInput = false
 
+if(typeof userInput === 'string'){
+    // do somthing for string
+} else if(typeof userInput === 'number'){
+    // do something for number
+}
+
+
 //ความแตกต่างระหว่าง any กับ unknown
 //ถ้าเป็น any เราสามารถเข้าถึง properties, function, method ต่างๆได้ โดยไม่ถูกตรวจสอบ
 let numberAny: any = 4.565
@@ -20,3 +27,4 @@ console.log(fixedNumberAny) //output -> 4.57
 
 // let nameUnk: unknown = "Pawornwan"
 // nameUnk.toUpperCase()
+
