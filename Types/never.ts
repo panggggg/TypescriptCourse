@@ -1,4 +1,4 @@
-//1. return never 
+//1. never return
 //this function is infinity loop(ทำงานแบบไม่สิ้นสุด)
 function inLoop(): never {
     while(true){
@@ -6,8 +6,8 @@ function inLoop(): never {
     }
 }
 
-//2.
-function error(message: string) {
+//2. exception
+function error(message: string): never {
     throw new Error(message)
 }
 console.log(error('bruhhhhh'))
