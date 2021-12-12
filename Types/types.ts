@@ -19,10 +19,13 @@ const obj: object = {age: 30}
 const arr: number[] = [1, 2, 3]
 const colour: string[] = ['red', 'black']
 const any: any[] = ['hello', 10]
-let arr2: Array<number>
+let arr2: Array<number> = [5, 6, 7]
 
 //6. tuple (fixed length and type array)
-const tuple: [string, number] = ['abc', 3]
+//ระบุ type ให้กับแต่ละตำแหน่ง
+let tuple: [string, number] = ['pang', 21]
+tuple[0] = 'abc'
+tuple[1] = 22
 
 //7. enum (human readable) => enum {NEW, OLD}
 enum Price {
@@ -51,3 +54,10 @@ type input = string | number
 
 //12. unknown
 let input: unknown
+
+//13. void
+let unUsable: void = undefined
+
+//14. null & undefined
+let undef: undefined = undefined
+let nu: null = null
