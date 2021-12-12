@@ -5,6 +5,7 @@ const personArr = {
 }
 
 let favouriteActivities: string[]
+//let favouriteActivities: Array<string>
 favouriteActivities = ['Sport']
 
 // let favouriteActivities: any[]  ===> any is flexible
