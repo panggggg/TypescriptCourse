@@ -19,6 +19,7 @@ const obj: object = {age: 30}
 const arr: number[] = [1, 2, 3]
 const colour: string[] = ['red', 'black']
 const any: any[] = ['hello', 10]
+let arr2: Array<number>
 
 //6. tuple (fixed length and type array)
 const tuple: [string, number] = ['abc', 3]
@@ -47,3 +48,6 @@ function pets( kindOfPet: 'dog' | 'cat'){
 
 //11. aliases
 type input = string | number
+
+//12. unknown
+let input: unknown
