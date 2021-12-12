@@ -7,3 +7,6 @@ let someValueLength: number = (someValue as string).length
 // let someValueLength: number = (<string>someValue).length
 
 console.log(someValueLength) //10
+
+// const trustMe: number = '11'
+const trustMe: number = ('11' as unknown as number)
