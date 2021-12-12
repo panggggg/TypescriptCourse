@@ -17,3 +17,6 @@ console.log(fixedNumberAny) //output -> 4.57
 // let numberUnk: unknown = 4.565
 // let fixedNumberUnk = numberUnk.toFixed(2) //ERROR -> Property 'toFixed' does not exist on type 'unknown'
 // console.log(fixedNumberUnk)
+
+// let nameUnk: unknown = "Pawornwan"
+// nameUnk.toUpperCase()
