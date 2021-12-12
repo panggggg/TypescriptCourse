@@ -18,3 +18,16 @@ const personEnum = {
 if(personEnum.role === Role.AUTHOR){
     console.log('is author')
 }
+
+//enum จะเริ่มต้นด้วยค่าเท่ากับ 0
+enum Cars {
+    Toyota, //0
+    Mazda, //1
+    Honda //2
+}
+
+let car: Cars = Cars.Toyota
+console.log(car) // output -> 0
+
+let carName: string = Cars[2]
+console.log(carName) //output -> Honda
