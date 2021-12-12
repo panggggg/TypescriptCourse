@@ -49,7 +49,7 @@ function pets( kindOfPet: 'dog' | 'cat'){
 
 }
 
-//11. aliases
+//11. aliases use type keyword
 type input = string | number
 
 //12. unknown
@@ -61,3 +61,6 @@ let unUsable: void = undefined
 //14. null & undefined
 let undef: undefined = undefined
 let nu: null = null
+
+//15. never use with function
+
