@@ -7,8 +7,6 @@ console.log(personObj.name)
 console.log(personObj['age'])
 console.log(personObj.age)
 
-
-
 // const person = {
 //     name: "Pawornwan",
 //     age: 21
