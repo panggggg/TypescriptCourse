@@ -1,12 +1,14 @@
+//never is a return type
+
 //1. never return
 //this function is infinity loop(ทำงานแบบไม่สิ้นสุด)
-function inLoop(): never {
+const infinite = () :never => {
     while(true){
-
+        console.log("How are you?")
     }
 }
 
-//2. exception
+//2. when function throw error
 function error(message: string): never {
     throw new Error(message)
 }
