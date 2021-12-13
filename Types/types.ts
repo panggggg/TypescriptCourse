@@ -36,12 +36,13 @@ console.log(Price.banana)
 
 //8. any (*) any kind of value, no specific type assignment
 let ageAny: any[]
-ageAny = [21, "21"]
+ageAny = [21, "21", true]
 
 //////////////////// end of core types /////////////////////
 
 //9. union
-const a: string | number = 5
+let a: string | number = 5
+a = 'pang'
 const b: string | number = 'pang'
 
 //10. literal
