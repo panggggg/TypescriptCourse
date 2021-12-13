@@ -4,6 +4,7 @@ const personObj: {name: string, age: number} = {
 }
 
 console.log(personObj.name)
+console.log(personObj['age'])
 console.log(personObj.age)
 
 
