@@ -25,3 +25,22 @@ function greeting(person: UserInfo){
     return person
 }
 greeting(myUser) //output -> Pawornwan
+
+////////////////////////
+interface Pet {
+    name: string,
+    age: number,
+    hairColour: string
+}
+
+const kitty: Pet = {
+    name: 'meow',
+    age: 2,
+    hairColour: 'brown'
+}
+
+const puppy: Pet = {
+    name: 'boobie',
+    age: 7,
+    hairColour: 'font'
+}
