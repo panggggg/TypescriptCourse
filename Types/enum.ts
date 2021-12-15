@@ -1,7 +1,3 @@
-// const ADMIN = 0
-// const READ_ONLY = 1
-// const AUTHOR = 2
-
 //กำหนดค่าแบบ manual
 enum Role { 
     ADMIN = 5,
@@ -20,7 +16,7 @@ if(personEnum.role === Role.AUTHOR){
     console.log('is author')
 }
 
-//enum จะเริ่มต้นด้วยค่าเท่ากับ 0 - n
+//1. enum จะเริ่มต้นด้วยค่าเท่ากับ 0 - n
 enum Cars {
     Toyota, //0
     Mazda, //1
@@ -33,7 +29,7 @@ console.log(car) // output -> 0
 let carName: string = Cars[2]
 console.log(carName) //output -> Honda
 
-//กำหนดค่า default 
+//2. กำหนดค่า default 
 enum Colour {
     Red = 2,
     Green, //3
@@ -42,11 +38,11 @@ enum Colour {
 let green: Colour = Colour.Green
 console.log(green) //output -> 3
 
-//เอาค่าที่เป็นตัวเลขไปหาว่าตัวเลขที่มาจากค่าไหนใน enum
-enum Fruit {
+//3. เอาค่าที่เป็นตัวเลขไปหาว่าตัวเลขที่มาจากค่าไหนใน enum
+enum Fruits {
     apple = 20,
     banana = 10,
     pineapple = 30
 }
-let banana: string = Fruit[10]
+let banana: string = Fruits[10]
 console.log(banana)
