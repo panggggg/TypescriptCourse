@@ -1,10 +1,11 @@
 //1. number -> no diff between int or float
-const age: number = 21
+let age: number = 21
 const pi: number = 3.14
 
 //2. string
 const firstName: string = "Pawornwan"
 const lastName: string = 'Sriprathung'
+let sayHello: string = `Hello my name is ${firstName}`
 
 //3. boolean -> true or false
 const isCat: boolean = true
@@ -28,6 +29,7 @@ tuple[0] = 'abc'
 tuple[1] = 22
 
 //7. enum (human readable) => enum {NEW, OLD}
+//sets of numeric values
 enum Price {
     banana = 10,
     strawberrry = 100
@@ -38,8 +40,6 @@ console.log(Price.banana)
 let ageAny: any[]
 ageAny = [21, "21", true]
 
-//////////////////// end of core types /////////////////////
-
 //9. union
 let a: string | number = 5
 a = 'pang'
@@ -49,6 +49,7 @@ const b: string | number = 'pang'
 function pets( kindOfPet: 'dog' | 'cat'){
 
 }
+pets("cat")
 
 //11. aliases use type keyword
 type input = string | number
@@ -57,7 +58,13 @@ type input = string | number
 let input: unknown
 
 //13. void
+//variable
 let unUsable: void = undefined
+
+//return type
+function warnUser(): void{
+    console.log("This is my warning message")
+}
 
 //14. null & undefined
 let undef: undefined = undefined
