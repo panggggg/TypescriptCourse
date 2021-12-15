@@ -2,6 +2,11 @@
 //unknown is better choice over any if you can't tell exactly what type you will store
 let userInput: unknown
 let userName: string
+let userAge: number
+
+let z: any
+
+userName = z
 
 //unknown type you can store any value without getting errors
 userInput = 5
@@ -9,9 +14,9 @@ userInput = "pang"
 userInput = false
 
 if(typeof userInput === 'string'){
-    // do somthing for string
+    userName = userInput
 } else if(typeof userInput === 'number'){
-    // do something for number
+    userAge = userInput
 }
 
 
