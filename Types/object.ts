@@ -14,3 +14,13 @@ console.log(personObj.age)
 
 // console.log(person.name)
 // console.log(person.age)
+
+const otherCake = (cakeObj: any) => {
+    console.log(cakeObj)
+}
+
+otherCake({
+    sugar: "10%",
+    milk: "29%",
+    flour: "50%"
+})
